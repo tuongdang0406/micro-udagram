@@ -1,13 +1,13 @@
 version: "3"
 services:
   reverseproxy:
-      image: reverseproxy
-      ports:
-          - 8080:8080
-      restart: always
-      depends_on:
-        - backend-user
-        - backend-feed
+    image: reverseproxy
+    ports:
+      - 8080:8080
+    restart: always
+    depends_on:
+      - backend-user
+      - backend-feed
   backend-user:
     image: udagram-api-user
     environment:
