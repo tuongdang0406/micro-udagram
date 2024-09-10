@@ -16,7 +16,7 @@ spec:
       name: backend-user
     spec:
       containers:
-        - image: dangnt/udagram-reverseproxy:v4
+        - image: dangnt/udagram-reverseproxy:v3
           name: reverseproxy
           imagePullPolicy: Always
           resources:
