@@ -5,8 +5,8 @@ data:
   AWS_PROFILE: default
   AWS_REGION: us-east-1
   JWT_SECRET: testing
-  POSTGRES_DB: db-356399367430-1
+  POSTGRES_DB: postgres
   POSTGRES_HOST: db-356399367430-1.cdfl1fzjih3a.us-east-1.rds.amazonaws.com
-  URL: http://ad2ab9851e86040efb2ae1199d7b2208-413536400.us-east-1.elb.amazonaws.com:8100
+  URL: http://ad2ab9851e86040efb2ae1199d7b2208-413536400.us-east-1.elb.amazonaws.com
 metadata:
   name: env-config
