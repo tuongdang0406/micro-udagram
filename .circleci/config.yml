@@ -24,7 +24,7 @@ jobs:
             docker tag udagram-api-user $DOCKER_USERNAME/udagram-api-user:v3
 
             docker build -t udagram-frontend ./udagram-frontend
-            docker tag udagram-frontend $DOCKER_USERNAME/udagram-frontend:v7
+            docker tag udagram-frontend $DOCKER_USERNAME/udagram-frontend:v8
 
             docker build -t udagram-reverseproxy ./udagram-reverseproxy
             docker tag udagram-reverseproxy $DOCKER_USERNAME/udagram-reverseproxy:v3
@@ -39,7 +39,7 @@ jobs:
 
             docker push $DOCKER_USERNAME/udagram-api-feed:v3
             docker push $DOCKER_USERNAME/udagram-api-user:v3
-            docker push $DOCKER_USERNAME/udagram-frontend:v7
+            docker push $DOCKER_USERNAME/udagram-frontend:v8
             docker push $DOCKER_USERNAME/udagram-reverseproxy:v3
 
 workflows:
